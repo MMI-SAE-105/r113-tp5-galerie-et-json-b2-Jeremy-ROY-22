@@ -52,7 +52,7 @@
     /* White border of 2px */
     border: 2px solid white;
     /* Rounded border */
-    border-radius: 20%;
+    border-radius: 50%;
 }
 .overlay>figure {
     /* No margin */
