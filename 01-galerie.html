@@ -19,6 +19,10 @@ x-data="{
     Perspiciatis quo ea consectetur dolor explicabo? 
     Rerum temporibus voluptatem perspiciatis ex alias repellat tempore.
 </p>
+
+<img src="https://picsum.photos/id/237/60/40" alt="miniature chiot"
+    @click="urlImage = 'https://picsum.photos/id/237/400/300'">
+
 <div 
     class="overlay"
     x-show="urlImage"
@@ -28,6 +32,7 @@ x-data="{
     <figure>
         <img :src="urlImage" alt="image 237... un chiot">
     </figure>
+
 </div>
 </body>
 </html>
