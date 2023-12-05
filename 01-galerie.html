@@ -22,6 +22,8 @@ x-data="{
 <div 
     class="overlay"
     x-show="urlImage"
+    @click="urlImage = null"
+    @keydown.escape.window="urlImage = null"
 >
     <figure>
         <img :src="urlImage" alt="image 237... un chiot">
