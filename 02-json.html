@@ -7,6 +7,17 @@
 </head>
 <body>
     <h1>JSON</h1>
+
+    <ul x-data="{async données() {
+        const resp = await fetch('elements.json');
+        return await resp.json();
+    }
+    
+    
+    
+    }">
+    </ul>
+
     <ul x-data="{
         données: [
             {
