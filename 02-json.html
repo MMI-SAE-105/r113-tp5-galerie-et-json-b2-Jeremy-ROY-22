@@ -12,31 +12,7 @@
     <ul x-data="{async données() {
         const resp = await fetch('elements.json');
         return await resp.json();
-    }
-    
-    
-    
-    }">
-    </ul>
-
-    <ul x-data="{
-        données: [
-            {
-                nom: 'Jean', 
-                projet: 'Alpine.js'
-                url: 'https://alpinejs.dev/'
-            },
-            {
-                nom: 'Maxime', 
-                projet: 'Tailwind CSS',
-                url: 'https://tailwindcss.com/'
-            },
-            {
-                nom: 'Adam', 
-                projet: 'Laravel'
-                url: 'https://laravel.com/'
-            },
-        ],
+    } 
     }">
         <template x-for="id in données">
             <li>
