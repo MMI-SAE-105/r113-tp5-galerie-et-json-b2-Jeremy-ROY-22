@@ -94,4 +94,11 @@ p {
     cursor: pointer;
     margin: 5px;
     border: 1px solid #ffffff;
+    width: 120px;
+    height: 100px;
+}
+
+.organisation {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
